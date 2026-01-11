@@ -1,11 +1,15 @@
 {
   "headers": [
     {
-      "source": "/(.*)\\.sh",
+      "source": "/ireng\\.sh",
       "headers": [
         {
           "key": "Content-Type",
-          "value": "text/plain; charset=utf-8"
+          "value": "application/x-sh"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=ireng.sh"
         }
       ]
     }
